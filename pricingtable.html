@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing table</title>
+    <style>
+        
+        #TABLE{
+            font-family: Arial, Helvetica, sans-serif;
+            margin:30px auto;
+        }
+        thead,tbody,tfoot{
+            display: block;
+        }
+        .common{
+            width: 159px;
+            height:46px;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            color: #fff;
+            text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+        }
+        .blue{
+            background-image: -webkit-linear-gradient(top,#3a8a95,#2f6b75);
+        }
+        .green{
+            background-image:-webkit-linear-gradient(top,#5d8731,#4a6b26);
+        }
+        .yellow{
+            background-image: -webkit-linear-gradient(top,#d4a814,#a68210);
+        }
+        .orange{
+            background-image: -webkit-linear-gradient(top,#c36b21,#99521a);
+        }
+        .maroon{
+            background-image: -webkit-linear-gradient(top,#954141,#7c3030);
+        }
+        .common2{
+            width:159px;
+            height:69px;
+            text-align: center;
+            line-height: 69px;
+            background-color:#F0F0F0;
+        }
+        .th1{
+            text-align: start;
+            border-top-right-radius:10px;
+            border-top-left-radius:10px;
+            padding-left:10px;
+        }
+        table thead span{
+            font-size:2em;
+        }
+        .common3{
+            width:159px;
+            height:37px;
+            border-bottom:1px solid #D8D8D8;
+            font-weight: 100;
+            font-size:16px;
+            text-align:center;
+            
+        }
+        .white{
+            background-color:#F6F6F6;
+        }
+        .grey{
+            background-color: #ECECEC;
+        }
+        table tbody tr td img{
+            align-items: center;
+            line-height:37px ;
+        }
+        .td1{
+            padding-left:10px;
+            text-align: left;
+        }
+        .common4{
+            width:159px;
+            height:64px;
+            border-bottom:2px solid #323232;
+        }
+        table tfoot button{
+            text-decoration: none;
+            border:1px solid black;
+            color: #fff;
+            width:100px; 
+            height: 27px;
+            text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+        }
+        .th2{
+            padding-left: 10px;
+        }
+        table th, table td{
+            border-right:1px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <table id="TABLE">
+        <thead>
+            <tr>
+                <th class="common "></th>
+                <th class="common blue">Starter</th>
+                <th class="common green">Basic</th>
+                <th class="common yellow">Professional</th>
+                <th class="common orange">Business</th>
+                <th class="common maroon">Premier</th>
+            </tr>
+            <tr>
+                <th class="common2 th1">Choose a plan</th>
+                <th class="common2"><span>$9</span> /mo.</th>
+                <th class="common2"><span>$29</span> /mo.</th>
+                <th class="common2"><span>$39</span> /mo.</th>
+                <th class="common2"><span>$49</span> /mo.</th>
+                <th class="common2"><span>$69</span> /mo.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="common3 white td1">Disk Storage <img src="./image/info.png" alt="info"></td>
+                <td class="common3 white">10GB</td>
+                <td class="common3 white">50GB</td>
+                <td class="common3 white">100GB</td>
+                <td class="common3 white">500GB</td>
+                <td class="common3 white">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common3 grey td1">Monthly Bandwidth <img src="./image/info.png" alt="info"></td>
+                <td class="common3 grey">10GB</td>
+                <td class="common3 grey">50GB</td>
+                <td class="common3 grey">100GB</td>
+                <td class="common3 grey">500GB</td>
+                <td class="common3 grey">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common3 white td1">Domain Names</td>
+                <td class="common3 white">10GB</td>
+                <td class="common3 white">50GB</td>
+                <td class="common3 white">100GB</td>
+                <td class="common3 white">500GB</td>
+                <td class="common3 white">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common3 grey td1">Subdomains <img src="./image/info.png" alt="info"></td>
+                <td class="common3 grey">10GB</td>
+                <td class="common3 grey">50GB</td>
+                <td class="common3 grey">100GB</td>
+                <td class="common3 grey">500GB</td>
+                <td class="common3 grey">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common3 white td1">Site Builders</td>
+                <td class="common3 white">10GB</td>
+                <td class="common3 white">50GB</td>
+                <td class="common3 white">100GB</td>
+                <td class="common3 white">500GB</td>
+                <td class="common3 white">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common3 grey td1">Backups</td>
+                <td class="common3 grey"><img src="./image/wrong.png" alt="wrong"></td>
+                <td class="common3 grey"><img src="./image/right.png" alt="right"></td>
+                <td class="common3 grey"><img src="./image/right.png" alt="right"></td>
+                <td class="common3 grey"><img src="./image/right.png" alt="right"></td>
+                <td class="common3 grey"><img src="./image/right.png" alt="right"></td>
+            </tr>
+            <tr>
+                <td class="common3 white td1">CPANEL <img src="./image/info.png" alt="info"></td>
+                <td class="common3 white">10GB</td>
+                <td class="common3 white">50GB</td>
+                <td class="common3 white">100GB</td>
+                <td class="common3 white">500GB</td>
+                <td class="common3 white">Unlimited</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th class="common4 grey th2"></th>
+                <th class="common4 grey "><button class=" blue">Sign Up</button></th>
+                <th class="common4 grey "><button class=" green">Sign Up</button></th>
+                <th class="common4 grey "><button class=" yellow">Sign Up</button></th>
+                <th class="common4 grey "><button class=" orange">Sign Up</button></th>
+                <th class="common4 grey "><button class=" maroon">Sign Up</button></th>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
